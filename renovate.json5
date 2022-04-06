@@ -4,24 +4,26 @@
     "config:base",
   ],
   "packageRules": [
-//    {
-//      "matchPackageNames": [
-//        "astellingwerf/renovate-reproduction"
-//      ],
-//      "versioning": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)(-(?<compatibility>.*))?$"
-//    },
     {
-      "matchDatasources": [
-        "docker"
-      ],
       "matchPackageNames": [
         "astellingwerf/renovate-reproduction"
       ],
-      "replacementName": "astellingwerf/renovate-reproduction",
-      "matchCurrentVersion": "/^1\\.0\\.0-flavour1$/",
-      "replacementVersion": "1.0.0-flavour2",
-      "additionalBranchPrefix": "{{currentVersion}}-no-custom-versioning",
+      "versioning": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)(-(?<compatibility>.*))?$"
     },
+
+//    {
+//      "matchDatasources": [
+//        "docker"
+//      ],
+//      "matchPackageNames": [
+//        "astellingwerf/renovate-reproduction"
+//      ],
+//      "replacementName": "astellingwerf/renovate-reproduction",
+//      "matchCurrentVersion": "/^1\\.0\\.0-flavour1$/",
+//      "replacementVersion": "1.0.0-flavour2",
+//      "additionalBranchPrefix": "{{currentVersion}}-no-custom-versioning",
+//    },
+
     {
       "matchDatasources": [
         "docker"
@@ -32,7 +34,7 @@
       "replacementName": "astellingwerf/renovate-reproduction",
       "matchCurrentVersion": "/^1\\.0\\.0-flavour1-suffix$/",
       "replacementVersion": "1.0.0-flavour2-suffix",
-      "additionalBranchPrefix": "{{currentVersion}}-no-custom-versioning"
+      "additionalBranchPrefix": "{{currentVersion}}-other-rule-disabled"
     }
   ]
 }
