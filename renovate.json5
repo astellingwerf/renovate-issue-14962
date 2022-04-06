@@ -15,11 +15,5 @@
       "matchCurrentVersion": "/^1\\.0\\.0-flavour1$/",
       "replacementVersion": "1.0.0-flavour2",
     },
-    {
-      "matchDatasources": [
-        "docker"
-      ],
-      "additionalBranchPrefix": "1-",
-    }
   ]
 }
