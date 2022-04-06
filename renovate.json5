@@ -14,7 +14,7 @@
       "replacementName": "astellingwerf/renovate-reproduction",
       "matchCurrentVersion": "/^1\\.0\\.0-flavour1$/",
       "replacementVersion": "1.0.0-flavour2",
-      "additionalBranchPrefix": "{{currentVersion}}-just-one-rule",
+      "additionalBranchPrefix": "{{currentVersion}}-just-one-rule-now",
     },
   ]
 }
