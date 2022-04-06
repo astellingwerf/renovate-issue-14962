@@ -5,6 +5,12 @@
   ],
   "packageRules": [
     {
+      "matchPackageNames": [
+        "astellingwerf/renovate-reproduction"
+      ],
+      "versioning": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)(-(?<compatibility>.*))?$"
+    },
+    {
       "matchDatasources": [
         "docker"
       ],
