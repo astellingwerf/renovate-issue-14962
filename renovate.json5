@@ -1,16 +1,16 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-//  "packageRules": [
-//    {
-//      "matchDatasources": [
-//        "docker"
-//      ],
-//      "matchPackageNames": [
-//        "astellingwerf/renovate-reproduction"
-//      ],
-//      "replacementName": "astellingwerf/renovate-reproduction",
-//      "matchCurrentVersion": "/^1\\.0\\.0-flavour1$/",
-//      "replacementVersion": "1.0.0-flavour2",
-//    },
-//  ]
+  "packageRules": [
+    {
+      "matchDatasources": [
+        "docker"
+      ],
+      "matchPackageNames": [
+        "astellingwerf/renovate-reproduction"
+      ],
+      "replacementName": "astellingwerf/renovate-reproduction",
+      "matchCurrentVersion": "/^1\\.0\\.0-flavour1$/",
+      "replacementVersion": "1.0.0-flavour2",
+    },
+  ]
 }
